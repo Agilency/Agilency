@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title> Agilency </title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" type="text/css" href="fontawesome/css/all.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>      
+      </head>
+
+    <div class="wrapper">
+      <ul class="menu">
+        <li>
+          <i class="fa fa-home" aria-hidden="true"></i>
+          <div class="slider">
+            <p><a href=index.html>Home</a></p>
+          </div>
+        </li>
+        
+        <li>
+          <i class="fa fa-file-text" aria-hidden="true"></i>
+          <div class="slider">
+            <p><a href="#gtResume">Resume</a></p>
+          </div>
+        </li>
+        
+        <li>
+          <i class="fa fa-tasks" aria-hidden="true"></i>
+          <div class="slider">
+            <p><a href="#myServices">Our Services</a></p>
+          </div>
+        </li>
+        
+        <li>
+          <i class="fa fa-briefcase" aria-hidden="true"></i>
+          <div class="slider">
+            <p><a href="#myWork">Our Work</a></p>
+          </div>
+        </li>
+        
+      </ul>
+    </div>
+
+    <div class="bodyHome">
+      <div class="row">
+        <div class="column">
+          <img src="img/bodyimg.png"/>
+        </div>
+        <div class="column">
+          <h1>Hasan Kawtharani</h1><br>
+          <h2>Graphic Designer</h2>
+          <h4>"Owner of Agilency"</h4>
+            <br>
+            
+            <div class="social">
+              <a href="https://www.facebook.com/agilencygraphics"><i class="fab fa-facebook-f"></i></a>
+              <a href="https://www.instagram.com/agilencygraphics/"><i class="fab fa-instagram"></i></a>
+              <a href="https://wa.me/0096181669136"><i class="fab fa-whatsapp"></i></a>
+            </div>
+
+        </div>
+      </div>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    
+    <div id="gtResume">
+      <div>
+        <h1>My Resume</h1>
+        <h2>Name: Hasan kawtharani</h2>
+        <h2>Birthdate: 19/1998</h2>
+        <h2>Location: South Lebanon - Tuffahta</h2>
+        <h2>Language: Arabic - English</h2>
+        <br>
+        <hr>
+        <br>
+        <h2>Education:</h2>
+        <h2>◉ 2012/2013: Brevet, Tuffahta Official School</h2>
+        <h2>◉ 2015/2016: Bachelor, "Information Technology" Alwafaa Institute</h2>
+        <h2>◉ 2016/2017: Start Computer Science at Islamic University of Lebanon</h2>
+        <h2>◉ 2017/2018: Transfer to Lebanese International University</h2>
+        <br>
+        <hr>
+        <br>
+        <h2>Experience</h2>
+        <h2>◉ 2012/2020: Curtain and its related decore stuff</h2>
+        <h2>◉ 2017/2020: Gaming zone</h2>
+        <h2>◉ 2017: Freelancer Graphic Designer</h2>
+        <br>
+        <hr>
+        <br>
+        <h2>Skills</h2>
+        <p>◉ Programming</p>
+        <div class="bar">
+        <div class="Programming">70%</div>
+        </div>
+
+        <p>◉ Design</p>
+        <div class="bar">
+        <div class="Design">90%</div>
+        </div>
+
+        <p>◉ Logo Intro</p>
+        <div class="bar">
+       <div class="logoIntro">65%</div>
+       </div>
+
+      <p>◉ Arduino</p>
+      <div class="bar">
+      <div class="arduino">80%</div>
+      </div>
+
+      <p>◉ Microsoft Office</p>
+        <div class="bar">
+       <div class="ms">90%</div>
+       </div>
+      </div>
+      <br>
+      <hr>
+      <br>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    
+    <div id="myServices">
+      <h1>Our Services</h1>
+      <marquee><span>◉</span> Logo Design&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <span>◉</span> Poster Design&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <span>◉</span> Rebranding&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <span>◉</span> Packaging Design&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <span>◉</span> Business Card Design&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <span>◉</span> Book Cover Design&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <span>◉</span> CD Cover Design&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <span>◉</span> & much more design don't be hesitant to contact us&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      </marquee>
+      <br>
+      <hr>
+      <br>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    
+    <div id="myWork">
+      <h1>Our Work</h1>
+    </div>
+    <div class="gallery">
+
+      <div id="myBtnContainer">
+        <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+        <button class="btn" onclick="filterSelection('logo')"> Logo</button>
+        <button class="btn" onclick="filterSelection('packaging')"> Packaging</button>
+        <button class="btn" onclick="filterSelection('poster')"> Posters</button>
+        <button class="btn" onclick="filterSelection('mugs')"> Mugs</button>
+      </div>
+      
+      <!-- Portfolio Gallery Grid -->
+      <div class="imageRow">
+        <div class="clm logo">
+          <div class="content">
+            <img src="img/logo/Amadeus.jpg" style="width: 100%;">
+            <h4>Amadeus Gamer Logo</h4>
+          </div>
+        </div>
+        <div class="clm logo">
+          <div class="content">
+            <img src="img/logo/Bee Pen.jpg" style="width: 100%;">
+            <h4>Bee Pen Logo</h4>
+          </div>
+        </div>
+        <div class="clm logo">
+          <div class="content">
+            <img src="img/logo/CSS.jpg" style="width: 100%;">
+            <h4>CCS Logo</h4>
+          </div>
+        </div>
+        <div class="clm logo">
+          <div class="content">
+            <img src="img/logo/fly.jpg" style="width: 100%;">
+            <h4>Fly Logo</h4>
+          </div>
+        </div>
+        <div class="clm logo">
+          <div class="content">
+            <img src="img/logo/Greymon.jpg" style="width: 100%;">
+            <h4>Greymon Gaming Logo</h4>
+          </div>
+        </div>
+        <div class="clm logo">
+          <div class="content">
+            <img src="img/logo/JD Umbrella.jpg" style="width: 100%;">
+            <h4>Umbrella Company Logo</h4>
+          </div>
+        </div>
+        <div class="clm logo">
+          <div class="content">
+            <img src="img/logo/leopard-mascot-logo.jpg" style="width: 100%;">
+            <h4>Leopard Mascot Gaming Logo</h4>
+          </div>
+        </div>
+        <div class="clm logo">
+          <div class="content">
+            <img src="img/logo/logo.jpg" style="width: 100%;">
+            <h4>Ninja Gaming Logo</h4>
+          </div>
+        </div>
+        <div class="clm logo">
+          <div class="content">
+            <img src="img/logo/panda.jpg" style="width: 100%;">
+            <h4>Panda Coffe Shop Logo</h4>
+          </div>
+        </div>
+        <div class="clm logo">
+          <div class="content">
+            <img src="img/logo/Spacium.jpg" style="width: 100%;">
+            <h4>Spacium Programming Company Logo</h4>
+          </div>
+        </div>
+
+        <div class="clm packaging">
+          <div class="content">
+            <img src="img/packaging/1.jpg" style="width: 100%;">
+            <h4>Costume Design for SlaughterHouse</h4>
+          </div>
+        </div>
+        <div class="clm packaging">
+          <div class="content">
+            <img src="img/packaging/4.jpg" style="width: 100%;">
+            <h4>Coffee Cup Design</h4>
+          </div>
+        </div>
+        <div class="clm packaging">
+          <div class="content">
+            <img src="img/packaging/breadwrap.jpg" style="width: 100%;">
+            <h4>BreadWrap Design</h4>
+          </div>
+        </div>
+        <div class="clm packaging">
+          <div class="content">
+            <img src="img/packaging/cups.jpg" style="width: 100%;">
+            <h4>Coffee Cup Design</h4>
+          </div>
+        </div>
+        <div class="clm packaging">
+          <div class="content">
+            <img src="img/packaging/paper bag.jpg" style="width: 100%;">
+            <h4>Caffe Paper Bag Design</h4>
+          </div>
+        </div>
+        <div class="clm packaging">
+          <div class="content">
+            <img src="img/packaging/pot.jpg" style="width: 100%;">
+            <h4>Pot Label Sticker Design</h4>
+          </div>
+        </div>
+        <div class="clm packaging">
+          <div class="content">
+            <img src="img/packaging/TRANSPARENT PACKAGE FOR BREAD.jpg" style="width: 100%;">
+            <h4>BreadWrap Design</h4>
+          </div>
+        </div>
+      
+        <div class="clm poster">
+          <div class="content">
+            <img src="img/poster/food poster.jpg" style="width: 100%;">
+            <h4>Resutrant Poster</h4>
+          </div>
+        </div>
+        <div class="clm poster">
+          <div class="content">
+            <img src="img/poster/poster2.jpg" style="width: 100%;">
+            <h4>Resturant Poster</h4>
+          </div>
+        </div>
+        <div class="clm poster">
+          <div class="content">
+            <img src="img/poster/samples.jpg" style="width: 100%;">
+            <h4>Samples Design for Product Posters</h4>
+          </div>
+        </div>
+
+        <div class="clm mugs">
+          <div class="content">
+            <img src="img/mugs/mug1.jpg" style="width: 100%;">
+            <h4>Nescafe Funny Arabian Caption Mug Design</h4>
+          </div>
+        </div>
+        <div class="clm mugs">
+          <div class="content">
+            <img src="img/mugs/mug15.jpg" style="width: 100%;">
+            <h4>PS4 Pattern Mug Design</h4>
+          </div>
+        </div>
+        <div class="clm mugs">
+          <div class="content">
+            <img src="img/mugs/mug17.jpg" style="width: 100%;">
+            <h4>Dotta Mug Design</h4>
+          </div>
+        </div>
+        <div class="clm mugs">
+          <div class="content">
+            <img src="img/mugs/mug19.jpg" style="width: 100%;">
+            <h4>Hollow Knight Mug Design</h4>
+          </div>
+        </div>
+        <div class="clm mugs">
+          <div class="content">
+            <img src="img/mugs/mug2.jpg" style="width: 100%;">
+            <h4>Old Game Mug Design</h4>
+          </div>
+        </div>
+        <div class="clm mugs">
+          <div class="content">
+            <img src="img/mugs/mug29.jpg" style="width: 100%;">
+            <h4>Love QR Code Mug Design</h4>
+          </div>
+        </div>
+        <div class="clm mugs">
+          <div class="content">
+            <img src="img/mugs/mug33.jpg" style="width: 100%;">
+            <h4>PUBG Mug Design</h4>
+          </div>
+        </div>
+        <div class="clm mugs">
+          <div class="content">
+            <img src="img/mugs/mug5.jpg" style="width: 100%;">
+            <h4>Kitty Mug Design</h4>
+          </div>
+        </div>
+        <div class="clm mugs">
+          <div class="content">
+            <img src="img/mugs/mug50.jpg" style="width: 100%;">
+            <h4>Arabic Song Mug Design</h4>
+          </div>
+        </div>
+        <div class="clm mugs">
+          <div class="content">
+            <img src="img/mugs/mug6.jpg" style="width: 100%;">
+            <h4>Traditional Lebanse Coffee Mug Design</h4>
+          </div>
+        </div>
+        <div class="clm mugs">
+          <div class="content">
+            <img src="img/mugs/mug7.jpg" style="width: 100%;">
+            <h4>Dota Mug Design</h4>
+          </div>
+        </div>
+      <!-- END GRID -->
+      </div>
+      
+      <!-- END MAIN -->
+      </div>
+      
+      <script>
+      filterSelection("all")
+      function filterSelection(c) {
+        var x, i;
+        x = document.getElementsByClassName("clm");
+        if (c == "all") c = "";
+        for (i = 0; i < x.length; i++) {
+          w3RemoveClass(x[i], "show");
+          if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+        }
+      }
+      
+      function w3AddClass(element, name) {
+        var i, arr1, arr2;
+        arr1 = element.className.split(" ");
+        arr2 = name.split(" ");
+        for (i = 0; i < arr2.length; i++) {
+          if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+        }
+      }
+      
+      function w3RemoveClass(element, name) {
+        var i, arr1, arr2;
+        arr1 = element.className.split(" ");
+        arr2 = name.split(" ");
+        for (i = 0; i < arr2.length; i++) {
+          while (arr1.indexOf(arr2[i]) > -1) {
+            arr1.splice(arr1.indexOf(arr2[i]), 1);     
+          }
+        }
+        element.className = arr1.join(" ");
+      }
+      
+      
+      // Add active class to the current button (highlight it)
+      var btnContainer = document.getElementById("myBtnContainer");
+      var btns = btnContainer.getElementsByClassName("btn");
+      for (var i = 0; i < btns.length; i++) {
+        btns[i].addEventListener("click", function(){
+          var current = document.getElementsByClassName("active");
+          current[0].className = current[0].className.replace(" active", "");
+          this.className += " active";
+        });
+      }
+      </script>
+    </body>
+
+</html>
